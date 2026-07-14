@@ -24,3 +24,5 @@ sample project:
 
 10 bonus points if GH is used throughout - include issue tracking?
  - i can try it
+
+gotta make an edit bc git is freaking out
