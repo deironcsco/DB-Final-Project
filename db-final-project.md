@@ -1,6 +1,10 @@
+[Github Link](https://github.com/deironcsco/DB-Final-Project/)
+
 Notes:  
  - req gathering PDF
    - data requirements and use cases
+   - minimum of four relations/tables
+   - which i think i have?
  - ER diagram, perhaps in draw.io
  - schema - pdf
  - DB implementation (mariadb? it has to be rdbms)
@@ -25,4 +29,16 @@ sample project:
 10 bonus points if GH is used throughout - include issue tracking?
  - i can try it
 
-gotta make an edit bc git is freaking out
+TDL  
+ - [x] finish requirements
+ - [ ] start to move these to git issue tracking ig
+ - [ ] revise requirements
+ - [ ] branch
+ - [ ] start ER diagram - draw.io
+ - [ ] revise ER diagram
+ - [ ] start schema - pdf
+ - [ ] revise schema
+ - [ ] install mariadb
+ - [ ] implement schema
+ - [ ] construct three queries - separate .sql files? and just include a note in the submission
+ - [ ] create application
