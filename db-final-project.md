@@ -42,3 +42,11 @@ TDL
  - [ ] implement schema
  - [ ] construct three queries - separate .sql files? and just include a note in the submission
  - [ ] create application
+
+
+
+
+ scratch for ER diagrams
+  - Borrow relationship
+  - should librarycard not have date issued b/c that can go in the relation?
+  - should the CID FK be in librarycard b/c in the ER? it'll probably go in the table, just. yeah. we also don't know the relationship? or which would have the FK?
