@@ -1,3 +1,5 @@
 init.sh
 clear.sh
 queries.sh
+secret.py
+__pycache__/*
