@@ -96,6 +96,46 @@ INSERT INTO book (
         'Not Borrowed', 'R. F. Kuang', 'Harper Voyager'
 );
 
+INSERT INTO book (
+    title, publish_date, genre, 
+    status, author, publisher
+    ) VALUES (
+        'Murder On The Orient Express', '1970-01-01', 'Mystery', 
+        'Borrowed', 'Agatha Christie', 'MyPublishingCo'
+);
+
+INSERT INTO book (
+    title, publish_date, genre, 
+    status, author, publisher
+    ) VALUES (
+        'Convenience Store By The Sea', '1970-01-01', 'Slice Of Life', 
+        'Borrowed', 'Sonoko Machida', 'MyPublishingCo'
+);
+
+INSERT INTO book (
+    title, publish_date, genre, 
+    status, author, publisher
+    ) VALUES (
+        'Shark Heart', '1970-01-01', 'Drama', 
+        'Borrowed', 'Emily Habeck', 'MyPublishingCo'
+);
+
+INSERT INTO book (
+    title, publish_date, genre, 
+    status, author, publisher
+    ) VALUES (
+        'Lessons in Chemistry', '1970-01-01', 'Drama', 
+        'Borrowed', 'Bonnie Garmus', 'MyPublishingCo'
+);
+
+INSERT INTO book (
+    title, publish_date, genre, 
+    status, author, publisher
+    ) VALUES (
+        'Dragon Ball Vol. 1', '1970-01-01', 'Action', 
+        'Borrowed', 'Akira Toriyama', 'Shonen Jump'
+);
+
 
 
 -- staff
@@ -149,7 +189,7 @@ INSERT INTO customer (
     state, zip, library_card_id, 
     card_issue_datetime
     ) VALUES (
-        "Hrishi Bhide", "2001-06-07", "hirshb@gmail.com",
+        "Hrishi Bhide", "2001-06-07", "hrishb@gmail.com",
         "(123) 890-1234", "2nd St.", "Metropolis", "Ohio",
         43210, 2, "2026-07-21 12:18:12.000000"
 );
@@ -177,11 +217,51 @@ INSERT INTO borrow (
     "2026-08-21"
 );
 
+INSERT INTO borrow (
+    staff_id, customer_id, book_id, 
+    borrow_datetime, expiration_date
+) VALUES (
+    3, 3, 4, "2026-06-07 06:07:11.000000",
+    "2026-07-25"
+);
+
+INSERT INTO borrow (
+    staff_id, customer_id, book_id, 
+    borrow_datetime, expiration_date
+) VALUES (
+    3, 3, 5, "2026-06-07 06:07:16.000000",
+    "2026-07-26"
+);
+
+INSERT INTO borrow (
+    staff_id, customer_id, book_id, 
+    borrow_datetime, expiration_date
+) VALUES (
+    1, 2, 6, "2026-06-07 06:07:21.000000",
+    "2026-08-01"
+);
+
+INSERT INTO borrow (
+    staff_id, customer_id, book_id, 
+    borrow_datetime, expiration_date
+) VALUES (
+    2, 1, 7, "2026-06-07 06:07:31.000000",
+    "2026-07-25"
+);
+
+INSERT INTO borrow (
+    staff_id, customer_id, book_id, 
+    borrow_datetime, expiration_date
+) VALUES (
+    1, 2, 8, "2026-06-07 06:07:26.000000",
+    "2026-08-08"
+);
+
 -- SHOW DATABASES;
 
--- SELECT * FROM book;
--- SELECT * FROM staff;
--- SELECT * FROM customer;
--- SELECT * FROM borrow;
+SELECT * FROM book;
+SELECT * FROM staff;
+SELECT * FROM customer;
+SELECT * FROM borrow;
 
 -- DROP DATABASE dbfp_library;
